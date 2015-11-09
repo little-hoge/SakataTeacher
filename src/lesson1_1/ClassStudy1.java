@@ -5,6 +5,7 @@ package lesson1_1;
  * @author takahashi
  */
 
+
 // ☆Java基本構文になれる (インスタンス生成、変数、出力)
 public class ClassStudy1 {
     public static void main(String[] args) {
