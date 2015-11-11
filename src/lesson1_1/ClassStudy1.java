@@ -17,8 +17,8 @@ public class ClassStudy1 {
         String gendar = yamada.getgendar();
 
         // 出力
-        System.out.print(name);
-        System.out.print(age);
-        System.out.print(gendar);
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(gendar);
     }
 }
