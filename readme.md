@@ -2,11 +2,13 @@
 
 ##はじめに
 #####Eclipse手軽ショートカット
+- Ctrl＋Shift＋L     ショートカット一覧表示
+- Shift＋Alt＋A      短形選択
 - Alt+Shift+J       javadocコメントを挿入
 - Ctrl+I            オートインデント
 - Ctrl+space        インテリセンス
-- Ctrl+/            コメントアウト
-- Ctrl+\            コメント解除
+- Ctrl+Shift+/      コメントアウト
+- Ctrl+Shift+\      コメント解除
 - Shift+F2          既存クラスドキュメント表示
 - Ctrl+Shift+O      自動インポート
 
