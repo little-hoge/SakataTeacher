@@ -1,5 +1,15 @@
 #坂田先生のJava講座メモ
 
+##はじめに
+#####Eclipse手軽ショートカット
+- Alt+Shift+J       javadocコメントを挿入
+- Ctrl+I            オートインデント
+- Ctrl+space        インテリセンス
+- Ctrl+/            コメントアウト
+- Ctrl+\            コメント解除
+- Shift+F2          既存クラスドキュメント表示
+- Ctrl+Shift+O      自動インポート
+
 ##第一回
 
 #####アクセス修飾子
