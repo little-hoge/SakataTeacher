@@ -56,3 +56,10 @@
 [lesson2-5](http://paiza.io/projects/6x-q8-ZRK7vojQP8tdnMdA "lesson2-5")  
 
 ----------
+
+##第三回
+
+####リンクまとめ
+[lesson3-2](http://paiza.io/projects/KFTrYCl0X2RmSntdMwOnMQ "lesson3-2")
+
+
