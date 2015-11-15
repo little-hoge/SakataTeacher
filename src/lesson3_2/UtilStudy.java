@@ -6,6 +6,16 @@ package lesson3_2;
  * @author takahashi
  *
  */
+/**
+ * @author little@hoge
+ * @version 0.0.1, 2015/11/15
+ * @since 0.0.1
+ */
+/**
+ * @author little@hoge
+ * @version 0.0.1, 2015/11/15
+ * @since 0.0.1
+ */
 public class UtilStudy {
 
     /**
@@ -27,7 +37,7 @@ public class UtilStudy {
         System.out.println(s2.substring(3,5));
 
         // s2で"は"が何回出現するか表示しなさい。
-        System.out.println("’は’は" + search(s2,'は') + "回");
+        System.out.println("’は’は" + CharCount(s2,'は') + "回");
 
 
         String strInt = "12";
@@ -52,14 +62,23 @@ public class UtilStudy {
     }
 
 
-    private static int search(String str, char searchstr){
-        int num = 0;
+
+    /**
+     * 該当文字文字がいくつ存在するかを計算し検出した数を返す
+     * @author little@hoge
+     * @param str 検索する文字列
+     * @param searchstr 検索文字
+     * @return cnt 該当文字数
+     * @since 0.0.1
+     */
+    private static int CharCount(String str, char searchstr){
+        int cnt = 0;
         for(int loopnum = 0; loopnum < str.length(); loopnum++){
             if(str.charAt(loopnum) == searchstr){
-                num++;
+                cnt++;
             }
         }
-        return num;
+        return cnt;
     }
 
 }
