@@ -6,16 +6,7 @@ package lesson3_2;
  * @author takahashi
  *
  */
-/**
- * @author little@hoge
- * @version 0.0.1, 2015/11/15
- * @since 0.0.1
- */
-/**
- * @author little@hoge
- * @version 0.0.1, 2015/11/15
- * @since 0.0.1
- */
+
 public class UtilStudy {
 
     /**
