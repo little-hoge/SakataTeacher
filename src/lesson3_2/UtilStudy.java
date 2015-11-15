@@ -56,7 +56,7 @@ public class UtilStudy {
 
     /**
      * 該当文字文字がいくつ存在するかを計算し検出した数を返す
-     * @author little@hoge
+     * @author takahashi
      * @param str 検索する文字列
      * @param searchstr 検索文字
      * @return cnt 該当文字数

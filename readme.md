@@ -27,11 +27,16 @@
 
 
 ####リンクまとめ  
+*インスタンス生成、変数、出力  
 [lesson1-1](https://paiza.io/projects/yX3APB_IXbOc45C9mtJfig "lesson1-1")  
+複数インスタンス生成、セッター、アクセス修飾子の理解  
 [lesson1-2](https://paiza.io/projects/-doLOrTkXdLCKKKBlNsGHw "lesson1-2")  
-[lesson1-3](https://paiza.io/projects/DSgTcP9tuTx4bG7NV3ie8A "lesson1-3")  
+カプセル化についての理解  
+[lesson1-3](https://paiza.io/projects/DSgTcP9tuTx4bG7NV3ie8A "lesson1-3")   
+コンストラクタについての理解  
 [lesson1-4](https://paiza.io/projects/_PTfIhIdvpW6dPVZi_3HwQ "lesson1-4")  
-[lesson1-5](https://paiza.io/projects/LxmNBgRXXvSGsDX12IAPeQ "lesson1-5")  
+複数コンストラクタについての理解、オーバーロード  
+[lesson1-5](https://paiza.io/projects/LxmNBgRXXvSGsDX12IAPeQ "lesson1-5")*
 
 ----------
 
@@ -49,17 +54,34 @@
 - メンバ変数は一意  
 
 ####リンクまとめ
+*static 定数定義についての理解  
 [lesson2-1](https://paiza.io/projects/yBpzfJ4eP4Y1J4-_cm3bLg "lesson2-1")  
+コンストラクタ応用、継承(extends)の理解  
 [lesson2-2](https://paiza.io/projects/gpmDbL-o_0OLKP67rnzOwA "lesson2-2")  
+オーバーロードの理解  
 [lesson2-3](https://paiza.io/projects/rr8Zi9Rm0M89FfnkQp-Oiw "lesson2-3")  
+インターフェース、オーバーライドの理解  
 [lesson2-4](https://paiza.io/projects/VVOKlP4WURg7QqvN6YAU0Q "lesson2-4")  
-[lesson2-5](http://paiza.io/projects/6x-q8-ZRK7vojQP8tdnMdA "lesson2-5")  
+抽象クラス(abstract)、オーバーライドの理解   
+[lesson2-5](http://paiza.io/projects/6x-q8-ZRK7vojQP8tdnMdA "lesson2-5")*  
 
 ----------
 
 ##第三回
+#####UMLについて
+- ユースケース図 アクターとか
+- クラス図 クラス仕様(変数の可視性等が)が記載されている図
+- オブジェクト図 クラス図をインスタンス化したレベルで表現した図
+- パッケージ図 パッケージ間の依存関係は破線の矢印で表現した図
+- シーケンス図 相互作用を短形で表し、動的振る舞いを表現した図
+- アクティビティ図 要はフローチャート
+
+##### Javadocとヘッダについて
+編集中
 
 ####リンクまとめ
-[lesson3-2](http://paiza.io/projects/KFTrYCl0X2RmSntdMwOnMQ "lesson3-2")
-
+*コメント仕様を満たすように実装   
+[lesson3-2](http://paiza.io/projects/KFTrYCl0X2RmSntdMwOnMQ "lesson3-2")  
+いろいろTest  
+[lesson3-other](http://paiza.io/projects/j3M4MYH3jLfO0ZgRA-qeyA "lesson3-other")*  
 
