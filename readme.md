@@ -2,15 +2,15 @@
 
 ##はじめに
 #####Eclipse手軽ショートカット
-- Ctrl＋Shift＋L     ショートカット一覧表示
-- Shift＋Alt＋A      短形選択
-- Alt+Shift+J       javadocコメントを挿入
-- Ctrl+I            オートインデント
-- Ctrl+space        インテリセンス
-- Ctrl+Shift+/      コメントアウト
-- Ctrl+Shift+\      コメント解除
-- Shift+F2          既存クラスドキュメント表示
-- Ctrl+Shift+O      自動インポート
+     Ctrl＋Shift＋L     ショートカット一覧表示
+     Shift＋Alt＋A      短形選択
+     Alt+Shift+J       javadocコメントを挿入
+     Ctrl+I            オートインデント
+     Ctrl+space        インテリセンス
+     Ctrl+Shift+/      コメントアウト
+     Ctrl+Shift+\      コメント解除
+     Shift+F2          既存クラスドキュメント表示
+     Ctrl+Shift+O      自動インポート
 
 ----------
 
@@ -76,8 +76,26 @@
 - シーケンス図 相互作用を短形で表し、動的振る舞いを表現した図
 - アクティビティ図 要はフローチャート
 
-##### Javadocとヘッダについて
-編集中
+##### Javadocのヘッダについて  
+    @author         クラスの作成者情報を記載
+    @param          メソッドの引数の説明
+    @return         メソッドの返り値の説明
+    @throw          発生する例外クラスを指定
+    @see            他のAPIを参照する場合に記載
+    @deprecated     推奨されないAPIであることを示す
+    @serial         直列化されたフィールドの説明
+    @sesrialData    直列化された状態でのデータ型と順序を記載
+    @since          導入されたバージョンを記載
+    @version        バージョンを記載
+
+    例
+    /**
+     * 処理の説明
+     * @author 著者名
+     * @param 引数名 説明
+     * @return 説明
+     * @version バージョン
+     */
 
 ####リンクまとめ
 *コメント仕様を満たすように実装   
