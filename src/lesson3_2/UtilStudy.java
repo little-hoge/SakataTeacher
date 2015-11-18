@@ -45,10 +45,10 @@ public class UtilStudy {
         System.out.println(intnum/5);
 
         // 半径が10cmの円の面積を表示しなさい
-        System.out.println((float)10*10*Math.PI+"cm2");
+        System.out.println((double)10*10*Math.PI+"cm2");
 
         // 二辺が3cmと5cmの直角三角形の斜辺の長さを表示しなさい
-        System.out.println((float)Math.sqrt(3 * 3 + 5 * 5));
+        System.out.println((double)Math.sqrt(3 * 3 + 5 * 5));
 
     }
 
