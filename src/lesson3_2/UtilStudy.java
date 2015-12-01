@@ -22,7 +22,7 @@ public class UtilStudy {
 
         // s1で2個目の"."は先頭から何文字目か表示しなさい。
         int strindex = s1.indexOf('.');
-        System.out.println("先頭から " + s1.indexOf('.', strindex) + "文字目");
+        System.out.println("先頭から " + s1.indexOf('.', strindex+1) + "文字目");
 
         // s2の先頭から3文字目～4文字目"ペン"を切り取って表示しなさい。
         System.out.println(s2.substring(3,5));
@@ -49,7 +49,7 @@ public class UtilStudy {
         System.out.println((double)10*10*Math.PI+"cm2");
 
         // 二辺が3cmと5cmの直角三角形の斜辺の長さを表示しなさい
-        System.out.println((double)Math.sqrt(3 * 3 + 5 * 5));
+        System.out.println(Math.sqrt((double)(3*3 + 5*5)));
 
     }
 
