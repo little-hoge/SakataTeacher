@@ -122,6 +122,8 @@
 ####リンクまとめ
 *コメント仕様を満たすように実装   
 [lesson3-2](http://paiza.io/projects/KFTrYCl0X2RmSntdMwOnMQ "lesson3-2")  
+*コメント仕様を満たすように実装時間系   
+[lesson3-3](https://paiza.io/projects/wDucvmMFLzwhsYAhEhBCBQ "lesson3-3")  
 いろいろTest  
 [lesson3-other](http://paiza.io/projects/j3M4MYH3jLfO0ZgRA-qeyA "lesson3-other")*  
 

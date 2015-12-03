@@ -49,7 +49,7 @@ public class CalendarStudy {
         Calendar lastday = Calendar.getInstance();
         lastday.set(2016,0,1);// 1/1
         long lasttime = lastday.getTimeInMillis() - inscalendar.getTimeInMillis();
-        System.out.printf("今年も残り%d日ですね！", lasttime / (long)(1000*60*60*24));
+        System.out.printf("今年も残り%d日ですね！", lasttime / (1000*60*60*24));
 
     }
 
