@@ -49,16 +49,15 @@ public class BookshelfApp {
                 FileReader fr = new FileReader(file);
                 BufferedReader br = new BufferedReader(fr);
 
-                // 読み込んだファイルを１行ずつ処理する
                 String line;
                 StringTokenizer token;
                 
-                // 区切り文字","で分割する
+                // 
                 while((line = br.readLine()) != null){
                     // 区切り文字","で分割する
                     token = new StringTokenizer(line, ",");
 
-                    // 分割した文字を画面出力する
+                    // 
                     while (token.hasMoreTokens()) {
                         switch(token.nextToken()){
                         case "Magazine":
