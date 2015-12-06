@@ -39,7 +39,7 @@
 ##第一回
 
 #####アクセス修飾子
-- 何も付けない場合privateではなく同じパッケージ内のみ参照可能　　
+- 何も付けない場合privateではなく同じパッケージ内のみ参照可能  
 
 #####汎化と特化(is-a関係)と集約(part-ofまたはhas-a)
 - 親クラスにまとめることを「汎化」  
@@ -126,4 +126,38 @@
 [lesson3-3](https://paiza.io/projects/wDucvmMFLzwhsYAhEhBCBQ "lesson3-3")  
 いろいろTest  
 [lesson3-other](http://paiza.io/projects/j3M4MYH3jLfO0ZgRA-qeyA "lesson3-other")*  
+
+----------
+
+##第四回  
+
+#####コマンドライン引数について  
+
+#####例外処理について  
+
+
+####リンクまとめ  
+*コマンドライン引数実装  
+[lesson4-1](https://paiza.io/projects/cDlb5V25GTc_Oin1D8Jt4g "lesson4-1")  
+例外処理追加  
+[lesson4-2](https://paiza.io/projects/5D5ENhtyVlTIxYSzi12b_A "lesson4-2")  
+固定長リストを可変リストに変更  
+[lesson4-3](https://paiza.io/projects/b9EjtdBPuypFh7dq0GjpMQ "lesson4-3")*  
+
+
+----------
+
+##第五回  
+
+#####三項演算子について  
+
+#####テキストファイル読み書きについて  
+
+#####CSVファイルについて  
+
+####リンクまとめ  
+*コマンドライン引数からファイル参照   
+[lesson5-3](https://paiza.io/projects/1TLtQw4hR0qqD4_TrwEMNg "lesson5-3")*  
+
+
 
