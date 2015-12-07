@@ -7,7 +7,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
 /**
@@ -44,9 +43,6 @@ public class Bookshelf {
 
     /**
      * ｃｓｖからデータを読み込む
-     *
-     * 本棚の最大冊数を超えると追加しない。
-     *
      * @param path ｃｓｖファイルのパス
      * @return 正常終了 false 異常終了 true
      */
