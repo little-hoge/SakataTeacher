@@ -20,7 +20,7 @@ public class BookshelfApp {
 
         Bookshelf bf = new Bookshelf();
 
-        if(args.length < 1){
+        if (args.length < 1) {
             for (int i = 0; i < 50; i++) {
                 Magazine magazine = new Magazine("Science");
                 magazine.setTitle("Magazine-" + i);
@@ -42,58 +42,9 @@ public class BookshelfApp {
                 bf.add(novel);
             }
         } else {
-            int i = 0;
-            File file = new File(args[0]);
-            try {
-
-                FileReader fr = new FileReader(file);
-                BufferedReader br = new BufferedReader(fr);
-
-                String line;
-                StringTokenizer token;
-                
-                // 
-                while((line = br.readLine()) != null){
-                    // 区切り文字","で分割する
-                    token = new StringTokenizer(line, ",");
-
-                    // 
-                    while (token.hasMoreTokens()) {
-                        switch(token.nextToken()){
-                        case "Magazine":
-                            Magazine magazine = new Magazine("Science");
-                            magazine.setTitle(token.nextToken() + i);
-                            magazine.setAuthor(token.nextToken() + i);
-                            magazine.setPrice(Integer.parseInt(token.nextToken()) + i);
-                            magazine.setNumber(Integer.parseInt(token.nextToken()));
-
-                            bf.add(magazine);
-                            break;
-                        case "Novel":
-                            Novel novel = new Novel();
-                            novel.setTitle(token.nextToken() + i);
-                            novel.setAuthor(token.nextToken() + i);
-                            novel.setPrice(Integer.parseInt(token.nextToken()) + i);
-                            novel.setSubTitle(token.nextToken());
-                            
-                            bf.add(novel);
-                            break;
-                        }
-                        i++;
-                    }
-                }
-
-                br.close();
-                fr.close();
-
-                // ファイルインスタンス生成時
-            } catch(FileNotFoundException e) {
-                System.out.println(e);
-                System.exit(0);
-                // 読み込み時
-            } catch (IOException e) {
-                e.printStackTrace();
-                System.exit(0);
+            if ( bf.readCsv(args[0]) ) {
+                System.out.println("ファイルエラー");
+                return;
             }
         }
 
