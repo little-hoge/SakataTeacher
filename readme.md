@@ -132,9 +132,25 @@
 ##第四回  
 
 #####コマンドライン引数について  
+    public static void main(String[] args){
+        if(args.length == 0){
+            System.out.println("コマンドライン引数が有りません。");
+        }else{
+            for(int i = 0; i < args.length; i++){
+                System.out.println((i + 1) + "番目 : " + args[i]);
+            }
+        }
 
 #####例外処理について  
-
+    try {
+        ～   // 処理本体。例外が発生する可能性がある
+    } catch (Exception e) {
+        ～   // 例外を処理する
+    } catch (Exception  ex) {
+        ～   // 例外2を処理する
+    } finally {
+        ～   // 終了処理。必ず実行される
+    }
 
 ####リンクまとめ  
 *コマンドライン引数実装  
@@ -150,7 +166,13 @@
 ##第五回  
 
 #####三項演算子について  
-
+    ※ 通常
+    if (f) return "a";
+    else   return "b";
+   
+    ※ 例
+    return f ? "a" : "b";
+    
 #####テキストファイル読み書きについて  
 
 #####CSVファイルについて  
